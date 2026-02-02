@@ -1,10 +1,10 @@
-"""tfexample: A Flower / TensorFlow app."""
+"""Tomato: A Flower / TensorFlow app."""
 
 import keras
 from flwr.app import ArrayRecord, Context, Message, MetricRecord, RecordDict
 from flwr.clientapp import ClientApp
 
-from tfexample.task import load_data, load_model
+from Tomato.task import load_data, load_model
 
 # Flower ClientApp
 app = ClientApp()

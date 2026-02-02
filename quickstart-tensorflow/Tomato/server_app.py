@@ -1,4 +1,4 @@
-"""tfexample: A Flower / TensorFlow app."""
+"""Tomato: A Flower / TensorFlow app."""
 
 from typing import List, Tuple
 
@@ -6,7 +6,7 @@ from flwr.app import ArrayRecord, ConfigRecord, Context, MetricRecord
 from flwr.serverapp import Grid, ServerApp
 from flwr.serverapp.strategy import FedAvg
 
-from tfexample.task import load_model
+from Tomato.task import load_model
 
 # Create the ServerApp
 app = ServerApp()

@@ -1,4 +1,4 @@
-"""tfexample: A Flower / TensorFlow app."""
+"""Tomato: A Flower / TensorFlow app."""
 
 import os
 
